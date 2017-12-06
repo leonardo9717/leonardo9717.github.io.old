@@ -1,0 +1,106 @@
+/* ---------- Basic Layout Styles ----------- */
+
+html, body,
+#page-wrapper, #page  {
+  height: 100% !important;
+  min-height: 100% !important;
+}
+body {
+  position: relative;
+}
+body.layout-boxed #page-wrapper {
+  -webkit-box-shadow:  0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:  0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  max-width: 1060px;
+  margin: 0px auto;
+}
+
+/*--- layout padding ---- */
+.region-wrapper {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.region-wrapper .region-wrapper-inner {
+  padding: 0 15px;
+}
+.region-wrapper .region-padding {
+  padding: 0 15px;
+}
+/*--- end layout padding ---- */
+
+#header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  z-index: 500;
+}
+#navigation {
+  clear: none;
+  display: block;
+  position: relative;
+}
+
+.sidebar-inner {
+  padding: 20px;
+}
+.sidebar .block {
+  margin: 0 0 50px 0;
+}
+
+#main-wrapper, #banner-area, #about-us, #services,
+#our-works, #features,
+#our-clients, #testimonials,
+#stay-in-touch, #contact-us, #footer {
+  padding: 100px 0;
+}
+
+
+.row {
+  clear: both;
+  width: 100%;
+}
+.row:before, .row:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+/*----- media queries---- */
+
+@media all and (min-width: 560px) and (max-width: 850px) {
+
+  .region-wrapper .region-wrapper-inner {
+    padding: 0 50px;
+  }
+
+}
+
+@media all and (min-width: 851px) {
+
+  .region-wrapper {
+    max-width: 1040px;
+  }
+  .region-wrapper .region-wrapper-inner {
+    padding: 0;
+  }
+
+  #content,
+  #sidebar {
+    display: inline;
+    float: left; /* LTR */
+  }
+  #content {
+    width: 67%;
+    margin-right: 3%;
+  }
+  #sidebar {
+    width: 30%;
+  }
+}
+
+
