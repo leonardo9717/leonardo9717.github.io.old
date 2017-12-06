@@ -38,11 +38,11 @@ ul.arrow li:before, ul.arrow2 li:before, ul.arrow3 li:before,
 ul.arrow4 li:before, ul.arrow5 li:before, ul.plus li:before, ul.pen li:before, ul.star li:before,
 ul.check li:before, ul.square li:before, ul.circle li:before, ul.pin li:before, 
 ul.cross li:before, ul.disc li:before, ul.download li:before, ul.bookmark li:before {
-  color: #f65287;
+  color: #f60000;
 }
 ul.list-filled li:before {
   color: #ffffff;
-  background: #f65287;
+  background: #f60000;
 }
 
 button,
@@ -50,7 +50,7 @@ button,
 input[type="submit"],
 input[type="button"],
 .form-submit {
-  background-color: #f65287;
+  background-color: #f60000;
   color: #f6f6f6;
 }
 button:hover,
@@ -63,7 +63,7 @@ input[type="button"]:hover,
 
 /* ----- blockquote -----*/
 blockquote {
-  border-left-color: 3px solid #f65287;
+  border-left-color: 3px solid #f60000;
   background-color: #efefef;
 }
 
@@ -132,7 +132,7 @@ blockquote {
   color: #444;
 }
 #main-menu a:hover, #main-menu a.active, #main-menu a.active-trail {
-  color: #f65287;
+  color: #f60000;
 }
 #main-menu ul ul.menu {
   background-color: #f6f6f6;
