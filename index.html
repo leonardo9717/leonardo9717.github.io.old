@@ -61,7 +61,8 @@
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#our-works">Works</a></li>
-            <li class="expanded"><a href="#features">Features</a>
+            <li class="expanded">
+              <a href="#features">Features</a>
               <ul class="menu">
                 <li><a href="#">Typography</a></li>
                 <li><a href="#">Responsive Columns</a></li>
@@ -171,16 +172,16 @@
 
           <div class="portfolio-grid-filter">
             <a href="#" data-category="all">All</a>
-            <a href="#" data-category="branding">Branding</a>
-            <a href="#" data-category="graphic">Graphic Design</a>
-            <a href="#" data-category="print">Print</a>
+            <a href="#" data-category="desktop">Desktop</a>
+            <a href="#" data-category="web">Web</a>
+            <a href="#" data-category="mobile">Mobile</a>
             <a href="#" data-category="video">Video</a>
           </div>
 
           <div class="portfolio-container">
             <div class="grid4 no-margin">
-              <div class="col print graphic project" data-project-file="project1.html"><img src="images/work/img_01.jpg" /></div>
-              <div class="col video project" data-project-file="project1.html"><img src="images/work/img_02.jpg" /></div>
+              <div class="col desktop project" onclick="featuresFunction()"><img src="images/work/Arcmage.png" /></div>
+              <div class="col video project" onclick="featuresFunction()"><img src="images/work/img_02.jpg" /></div>
               <div class="col print graphic project" data-project-file="project1.html"><img src="images/work/img_03.jpg" /></div>
               <div class="col branding project" data-project-file="project1.html"><img src="images/work/img_04.jpg" /></div>
               <div class="col print project" data-project-file="project1.html"><img src="images/work/img_05.jpg" /></div>
@@ -197,21 +198,36 @@
   </div>
   <!-- END My works -->
 
-
   <!-- Features -->
   <div id="features" class="clearfix">
-    <div class="region-wrapper"><div class="region-wrapper-inner"><div class="region-padding">
-      <h2 class="section-title">Features</h2>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-      
-      <div class="info-box">
-        <div class="info-box-inner with-shadow top-border">
-        <h2>Suspendisse Cursus Diam Quis Tortor Vehicula</h2>
-        <p>Maecenas purus purus, pretium nec cursus ac, pharetra ac eros. Sed malesuada mauris emo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    <div class="region-wrapper">
+      <div class="region-wrapper-inner">
+          <div id="arcmageFeatures" class="divFeatures">         <!-- ARCMAGE -->
+            <div class="region-padding">
+              <h2 class="section-title">Features</h2>
+            <p>Arcmage</p>
+            <div class="info-box">
+              <div class="info-box-inner with-shadow top-border">
+                <h2>Suspendisse Cursus Diam Quis Tortor Vehicula</h2>
+                <p>Maecenas purus purus, pretium nec cursus ac, pharetra ac eros. Sed malesuada mauris emo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="marvelFeatures" class="divFeatures">          <!-- marver -->
+          <div class="region-padding">
+            <h2 class="section-title">Features</h2>
+            <p>Marvel</p>
+            <div class="info-box">
+              <div class="info-box-inner with-shadow top-border">
+                <h2>Suspendisse Cursus Diam Quis Tortor Vehicula</h2>
+                <p>Maecenas purus purus, pretium nec cursus ac, pharetra ac eros. Sed malesuada mauris emo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-    </div></div></div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
+    </div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
   </div>
   <!-- END Features -->
 
@@ -232,7 +248,7 @@
         <li><img src="images/client/img_04.jpg" /></li>
         <li><img src="images/client/img_05.jpg" /></li>
       </ul>
-      
+
     </div></div></div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
   </div>
   <!-- END Our Clients -->
