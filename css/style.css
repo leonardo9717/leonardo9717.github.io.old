@@ -816,7 +816,22 @@ html[xmlns] .slides {display: block;}
 #search .form-submit {
   width: 100%;
 }
+/* meu css */
+.carousel
+{
+  width: 70%;
+  margin: 0 auto;
+}
+@media(max-width: 850px){
+  .carousel{
+    width: 100%;
+  }
+}
 
+.carousel-inner > .carousel-item > img
+{
+  width:100%;
+}
 
 
 

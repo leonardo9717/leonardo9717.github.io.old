@@ -258,21 +258,9 @@ $(function() {
 //------------------------------------------------------------------------
 //						Features
 //------------------------------------------------------------------------
-       $(document).ready(function() {
-            $(".divFeatures").hide();
-            $("#arcmageFeatures").show();
-        });
 
-       /* $(".click").click(function ()
-        {
-
-        });*/
-
-        function featuresFunction()
-        {
-            var divaEsconder = document.getElementsByClassName("divFeatures");
-            divaEsconder.style.display = "none";
-        }
+        $(".divFeatures").hide();
+        $("#arcmageFeatures").show();
 //------------------------------------------------------------------------
 //						Contact us
 //------------------------------------------------------------------------
@@ -309,3 +297,9 @@ $(function() {
 	});
 
 })(jQuery);
+
+function featuresFunction(projeto)
+{
+    $(".divFeatures").hide();
+    $("#"+projeto).show();
+}
