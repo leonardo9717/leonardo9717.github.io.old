@@ -34,26 +34,30 @@
 </head>
 <body>
 
-<div id="page-wrapper"><div id="page">
+<div id="page-wrapper">
+  <div id="page">
 
   <!-- Intro section -->
   <div id="intro" class="clearfix">
-    <div class="region-wrapper"><div class="region-wrapper-inner"><div class="region-padding">
-      <div class="content">
+    <div class="region-wrapper">
+      <div class="region-wrapper-inner">
+        <div class="region-padding">
+          <div class="content">
 
-      <!-- Logo section -->
-      <div id="site-logo">
-        <img src="" alt="" />
-      </div>
-      <!-- END Logo section -->
-
-        <div class="slogan">
-          <h1>Welcome</h1>
-          <br/>
-          <h4 style="color: #fff;">Hi, I'm Leonardo Henriques and this is my portfolio.</h4>
+            <!-- Logo section -->
+            <div id="site-logo">
+              <img src="" alt="" />
+            </div>
+            <!-- END Logo section -->
+            <div class="slogan">
+            <h1>Welcome</h1>
+            <br/>
+            <h4 style="color: #fff;">Hi, I'm Leonardo Henriques and this is my portfolio.</h4>
+            </div>
+          </div>
         </div>
       </div>
-    </div></div></div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
+    </div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
   </div>
   <!--END Intro section -->
 
@@ -123,7 +127,6 @@
             <a href="#" data-category="desktop">Desktop</a>
             <a href="#" data-category="web">Web</a>
             <a href="#" data-category="mobile">Mobile</a>
-            <a href="#" data-category="video">Video</a>
           </div>
 
           <div class="portfolio-container">
@@ -131,11 +134,7 @@
               <div class="col desktop project" onclick="featuresFunction('arcmageFeatures')"><img src="images/work/arcmage/Arcmage.png" /></div>
               <div class="col web project" onclick="featuresFunction('marvelFeatures')"><img src="images/work/marvel/marvel.png" /></div>
               <div class="col web project" onclick="featuresFunction('dEscolarFeatures')"><img src="images/work/pap/desporto-escolar.png" /></div>
-              <div class="col branding project" data-project-file="project1.html"><img src="images/work/img_04.jpg" /></div>
-              <div class="col print project" data-project-file="project1.html"><img src="images/work/img_05.jpg" /></div>
-              <div class="col graphic project" data-project-file="project1.html"><img src="images/work/img_06.jpg" /></div>
-              <div class="col video project" data-project-file="project1.html"><img src="images/work/img_07.jpg" /></div>
-              <div class="col branding project" data-project-file="project1.html"><img src="images/work/img_08.jpg" /></div>
+              <div class="col web mobile project" onclick="featuresFunction('sogestFeatures')"><img src="images/work/sogest/logo.png" /></div>
             </div>
           </div>
           <div class="portfolio-ajax-container" data-container="container1"></div><!--end of ajax container-->
@@ -273,75 +272,61 @@
             </div>
           </div>
         </div>
+          <div id="sogestFeatures" class="divFeatures">  <!-- Marvel -->
+            <div class="info-box">
+              <div class="info-box-inner with-shadow top-border">
+                <h2>SoGest</h2>
+                <p>This is an ongoing project that we are still building using Yii2, MVC framework.
+                   The project consists in a Web application and a mobile one that communicates through an API.
+                    The goal is a program that manages members, quotas, events , amongst other things in an association.</p>
+              </div>
+            </div>
+          </div>
       </div>
     </div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
   </div>
+</div>
   <!-- END Features -->
 
   <!-- Stay in touch -->
   <div id="stay-in-touch" class="clearfix">
-    <div class="region-wrapper"><div class="region-wrapper-inner"><div class="region-padding">
-      <h2 class="section-title text-center">Stay In Touch</h2>
- 
-      <div class="grid3">
-        <div class="col">
-          <h4>Subscribe</h4>
-          <!-- Newsletter form -->
-		  <div class="newsletter">
-		  <p>Pellentesque habitant morbi tristique senectus et eugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-			<form action="" method="post" id="newsletter-form">
-				<input type="text" name="newsletter_email" id="newsletter_email" placeholder="Enter your email address" />
-				<button type="submit" name="newsletter_submit" id="newsletter_submit" value="Get Notified" ><i class="fa fa-long-arrow-right"></i></button>
-			</form>
-		  </div>
-		  <!-- END Newsletter form -->
-          
+    <div class="region-wrapper">
+      <div class="region-wrapper-inner">
+        <div class="region-padding">
+          <div class="grid3">
+            <div class="col">
+              <h4>Stay in Touch</h4>
+              <strong>Mobile:</strong> +351 911 821 277 <br/>
+              <strong>E-mail:</strong> leonardo.henriques16@gmail.com <br />
+            </div>
+          </div>
         </div>
-      
-        <div class="col">          
-          <div style="width:100%;height:300px;background-color:#efefef;"></div>
-        </div>
-      
-        <div class="col">
-          <h4>Address</h4>
-          <strong>Drupalchamp Drupal Themes</strong> <br />
-          C-244, 2nd Floor, Sector-63 <br />
-          Noida, UP, India, Pin:201301<br /><br />
-          <strong>Phone:</strong> +61 83765 541 254 <br />
-          <strong>Mobil:</strong> +61 83765 541 254 <br /><br />
-          <strong>E-mail:</strong> info@drupalchamp.com <br />
-          <strong>Support:</strong> support@drupalchamp.com <br />
-          <strong>Web:</strong> www.drupalchamp.com <br />
-        </div>
-      
       </div>
-    </div></div></div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
+    </div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
   </div>
   <!-- END Stay in touch -->
 
   <!-- Footer -->
   <div id="footer" class="clearfix">
-    <div class="region-wrapper"><div class="region-wrapper-inner"><div class="region-padding">
-		<!-- Social icons -->
-		<div class="social-icons text-center">
-            <a href="https://github.com/leonardo9717" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
-            <a href="#" title="Like us on Facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" title="Join us on LinkedIn"><i class="fa fa-linkedin"></i></a>
-            <a href="#" title="Pinterest Pinboard"><i class="fa fa-pinterest"></i></a>
-            <a href="#" title="Our works on Dribbble"><i class="fa fa-dribbble"></i></a>
+    <div class="region-wrapper">
+      <div class="region-wrapper-inner">
+        <div class="region-padding">
+          <!-- Social icons -->
+          <div class="social-icons text-center">
+              <a href="https://github.com/leonardo9717" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+          </div>
+          <!-- END Social icons -->
+          <div class="copyright text-center">&copy 2017 Leonardo Henriques</div>
+          <div class="copyright text-center">Ring designed by <a href="http://templatestock.co">Template Stock</a></div>
         </div>
-		<!-- END Social icons -->
-		<div class="copyright text-center">&copy 2016 Ring Designed by <a href="http://templatestock.co">Template Stock</a></div>
-    </div></div></div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
+      </div>
+    </div> <!-- /.region-padding /.region-wrapper-inner, /.region-wrapper -->
   </div>
   <!-- END Footer -->
 
 
-</div></div><!-- END #page --><!-- END #page-wrapper -->
-
-
-		
-
+</div>
+</div><!-- END #page --><!-- END #page-wrapper -->
 	<!-- Include JS files -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.js"></script>

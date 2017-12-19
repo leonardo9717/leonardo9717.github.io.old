@@ -833,15 +833,6 @@ html[xmlns] .slides {display: block;}
   width:100%;
 }
 
-#carouselPap > #carPrev
-{
-  background: linear-gradient(to left, #fff, #cecece);
-}
-#carouselPap > #carNext
-{
-  background: linear-gradient(to right, #fff, #CECECE);
-}
-
 #linkMarvel
 {
     text-decoration: underline;
